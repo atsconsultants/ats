@@ -1,0 +1,156 @@
+p{
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body{
+  padding-top: 00px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.header{
+  position:fixed;
+  width:100%;
+  z-index:900;
+}
+
+.top-header{
+  display:grid;
+  z-index: 800;
+  width: 100%;
+  grid-template-columns: 1fr 4fr 2fr;
+  /* grid-template-rows: 150px; */
+  margin-top:0px;
+  margin-left:0px;
+  margin-right:0px;
+  margin-bottom: 0px;
+  /* column gap not needed because of button properies  */
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  background-color: rgb(214, 227, 227);
+  text-align: center;
+  padding: 10px;
+
+}
+
+.logo {
+  /* object-fit: contain; */
+  height:80px;
+  width:100%;
+  object-fit: contain;
+  vertical-align: top;
+  
+  }
+
+  .page-name{
+    font-family: roberto;
+    vertical-align: bottom;
+    font-weight: 700;
+    font-size:32px;
+    color: green;
+    width: 100%;
+    line-height: 40 px;
+    /* text-align: bottom; */
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 30px;
+  }
+
+  .page-sub-name{
+  color: rgb(13, 13, 164);
+  font-family: Arial;
+  vertical-align: bottom;
+  font-weight: bold;
+  font-size:18px;
+  text-align: center;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  }
+  
+  .big-red{
+    font-family: Lumanosimo;
+    color: #ac0808;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   padding:20px;
+  }
+
+
+.nav-row{
+  display:grid;
+  z-index: 800;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* grid-template-rows: 150px; */
+  margin-top:0px;
+  margin-left:0px;
+  margin-right:0px;
+  margin-bottom: 0px;
+  /* column gap not needed because of button properies  */
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  background-color: grey;
+  }
+  
+  button{
+    color: white;
+    font-weight: 700;
+    background-color:grey;
+    height: 45px;
+    width: 100px;
+    /* border-radius:10px; */
+    cursor: pointer;
+    margin-right:0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transition:opacity: 0.3s;
+    vertical-align: centre;
+    font-family: Roboto, Arial;
+    font-size: 14px;
+    text-align: center;
+    line-height: 14px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: grey;
+  }
+  
+  button:hover{
+  /*  opacity: 0.6; */
+  color: black;
+  background-color: white;
+  }
+   
+
+  .pink-button{
+    background-color: plum;
+  }
+
+.grey-button{
+  background-color: lightgrey;
+}
+
+.lightblue-button{
+  background-color: lightsteelblue;
+}
+
+.blue-button{
+  background-color:blue;
+}
+
+
+  
+main{
+  padding-top: 170px;
+}
+
