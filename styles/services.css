@@ -16,7 +16,7 @@
       margin-left: 200px;
       row-gap: 30px;
       column-gap: 40px;
-      background-color: rgb(214, 227, 227,0.2); 
+      background-color: rgb(214, 227, 227,0.5);
       padding:10px;
       z-index:  20;
       
@@ -77,6 +77,8 @@
       margin-bottom: 5px;  
     }
 
+
+    
     .item-txt{
       color: red;
       font-family: Arial;
