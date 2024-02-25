@@ -1,7 +1,7 @@
 
 .team-photo-container-mar23{
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: 1fr 6fr 1fr;
   place-items: center;
   margin-top: 0px;
   margin-bottom: 60px;
