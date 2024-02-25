@@ -44,11 +44,12 @@
 
   .team-photo-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr  1fr 5fr 1fr 1fr 1fr;
+    place-items: center;
     margin-top: 0px;
     margin-bottom:20px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
     border-style: none;
     z-index:  30;
     }
@@ -62,3 +63,5 @@
       height:300px;
   
    }
+
+   
