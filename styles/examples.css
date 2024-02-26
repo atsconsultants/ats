@@ -9,8 +9,8 @@
   
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 10%;
+  margin-left: 10%;
   
   background-color: rgb(214, 227, 227, 0.1); 
   padding:20px;
@@ -58,5 +58,7 @@
   width:100%;
   object-fit: contain;
   vertical-align: top;
+  place-items: center;
+  
   }
  

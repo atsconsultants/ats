@@ -4,8 +4,8 @@
   
   margin-top: 0px;
   margin-bottom: 20px;
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 10%;
+  margin-left: 10%;
   background-color: rgb(214, 227, 227,0.1); 
   padding:20px;
   z-index:  20;
@@ -48,8 +48,8 @@
     place-items: center;
     margin-top: 0px;
     margin-bottom:20px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 10%;
+    margin-left: 10%;
     border-style: none;
     z-index:  30;
     }
