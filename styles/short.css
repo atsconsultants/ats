@@ -1,0 +1,31 @@
+
+.flyer-container{
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  place-items: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 1%;
+  margin-left: 1%;
+  z-index:  30;
+  border-style: 5px solid blue;
+  background-color: aqua;
+  height: 50px;
+  width: 100px;
+  }
+
+
+ .flyer-copy{
+  position: relative;
+  object-fit: contain;
+  /* height:300px; */
+   /*
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left:0px;
+  */
+
+ }
+
+
