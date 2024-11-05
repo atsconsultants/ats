@@ -89,7 +89,7 @@ body{
   display:grid;
   z-index: 800;
   width: 100%;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   /* grid-template-rows: 150px; */
   margin-top:0px;
   margin-left:0px;

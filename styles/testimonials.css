@@ -1,0 +1,61 @@
+.feedback-box{
+      
+  display:block;
+  
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-right: 30%;
+  margin-left: 30%;
+  background-color: rgb(214, 227, 227,0.1); 
+  padding:20px;
+  z-index:  20;
+  
+  /* try - from w3 schools shadows */
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: gray 0px 0px 7px 2px;
+  box-sizing: border-box;
+
+  }
+
+  
+  
+  .feedback-txt{
+    font-family: roberto,arial;      
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 0px;
+    word-spacing: 4px;
+    margin-left: 50px;
+    margin-right:50px;
+    padding: 20px;
+    z-index:1;
+  }
+  
+  .feedback-txt p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+
+  .from-txt{    
+    font-family: roberto,arial;      
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 0px;
+    word-spacing: 4px;
+    margin-left: 50px;
+    margin-right:50px;
+    padding: 20px;
+    z-index:1;
+    
+  }
+
+  .from-txt p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-style: italic;
+    color:blue
+  }
