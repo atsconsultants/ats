@@ -65,10 +65,46 @@
  
   }
 
+  .person-qualifs{
+    color: green;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;  
+  }
+
   .person-details{
     color: black;
     font-family: Arial;
     font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;  
+  }
+
+  .details-heads1{
+    color:blue;
+    font-family: Arial;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;  
+  }
+
+  .details-heads{
+    color: red;
+    font-family: Arial;
+    font-weight: 400;
     font-size: 12px;
     line-height: 20px;
     text-align: left;
