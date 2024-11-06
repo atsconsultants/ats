@@ -36,7 +36,7 @@
   row-gap: 30px;
   column-gap: 40px;
   background-color: rgb(214, 227, 227, 0.1);
-  padding:20px;
+  padding:0px;
   border-top-width: 2px;
   border-bottom-width: 2px;
   border-left-width:2px;
@@ -57,11 +57,11 @@
     font-family: Lumanosimo;
     color: darkblue;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
     width: 100%;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
  
   }
 
@@ -70,10 +70,10 @@
     font-family: Arial;
     font-weight: bold;
     font-size: 12px;
-    line-height: 20px;
+    line-height: 12px;
     text-align: left;
     width: 100%;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 5px;  
   }
 
@@ -87,8 +87,26 @@
     width: 100%;
     margin-top: 5px;
     margin-bottom: 5px;  
-  }
+    }
 
+  .experience-grid{      
+    display:grid;
+    position: relative;
+    grid-template-columns: 2fr 10fr ;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 20%;
+    margin-left: 0%;
+    row-gap: 0px;
+    column-gap: 10px;
+    background-color: rgb(214, 227, 227,0.1);
+    padding:0px;
+    z-index:  20;       
+    
+    }
+
+  
   .details-heads1{
     color:blue;
     font-family: Arial;
