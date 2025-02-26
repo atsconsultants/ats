@@ -59,3 +59,68 @@
     font-style: italic;
     color:blue
   }
+
+
+  .sunshine-container{
+
+    display:block;
+  
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: rgb(214, 227, 227,0.1); 
+  padding:0px;
+  z-index:  20;
+  
+  
+  /* try - from w3 schools shadows 
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: gray 0px 0px 7px 2px;
+  box-sizing: border-box;
+*/
+
+  
+  place-items: center;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-right: 5%;
+  margin-left: 5%;
+  border-style: none;
+  z-index:  30;
+  }
+ 
+  .sunshine-2016-image{
+    position: relative;
+    object-fit: contain;
+    
+    
+    
+
+   }
+
+/*
+  .sunshine-2016-image{
+    display:grid;
+    grid-template-columns: 1fr 14fr 1fr ;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 5%;
+    margin-left: 5%;
+    row-gap: 30px;
+    column-gap: 40px;
+    background-color: rgb(214, 227, 227, 0.1);
+    padding:0px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width:2px;
+    border-right-width: 2px;
+    border-color: navy;
+    border-style:solid;
+    z-index:  20;
+    }
+    */
